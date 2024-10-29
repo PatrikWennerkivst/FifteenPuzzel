@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         FifteenPuzzle run = new FifteenPuzzle();
-
+        //Huvudprogrammet som startar spelet
     }
 }

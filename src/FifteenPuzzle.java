@@ -39,7 +39,7 @@ public class FifteenPuzzle extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
-
+        //Första layouten för programmet är klart
     }
 
     @Override
