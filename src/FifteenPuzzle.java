@@ -31,8 +31,8 @@ public class FifteenPuzzle extends JFrame implements ActionListener {
         emptyButton.addActionListener(this);
         // Lägg till panel och knapp för nytt spel
         add(panel, BorderLayout.CENTER);
-        JButton newGameButton = new JButton("New Game");
-        add(newGameButton, BorderLayout.SOUTH);
+        JButton randomButton = new JButton("New Game"); // byter namn på knappen
+        add(randomButton, BorderLayout.SOUTH);
         setTitle("15-Puzzle");
         setSize(400, 400);
         setVisible(true);
