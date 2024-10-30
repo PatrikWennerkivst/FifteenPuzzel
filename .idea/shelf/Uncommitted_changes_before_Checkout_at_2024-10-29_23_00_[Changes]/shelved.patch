@@ -1,0 +1,19 @@
+Index: src/FifteenPuzzle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import javax.swing.*;\r\nimport java.awt.*;\r\nimport java.awt.event.ActionEvent;\r\nimport java.awt.event.ActionListener;\r\nimport java.util.ArrayList;\r\n\r\npublic class FifteenPuzzle extends JFrame implements ActionListener {\r\n    private ArrayList<JButton> buttons = new ArrayList<>();\r\n    private int emptyIndex = 15;\r\n\r\n    public FifteenPuzzle() {\r\n        JPanel p = new JPanel();\r\n        p.setLayout(new BorderLayout());\r\n        add(p);\r\n        JPanel panel = new JPanel(new GridLayout(4, 4));\r\n        buttons = new ArrayList<>();\r\n\r\n        // Skapa knappar och lägg till i panelen\r\n        for (int i = 1; i <= 15; i++) {\r\n            JButton button = new JButton(String.valueOf(i));\r\n            buttons.add(button);\r\n            panel.add(button);\r\n            button.addActionListener(this);\r\n        }\r\n\r\n        // Lägg till den tomma knappen\r\n        JButton emptyButton = new JButton(\"\");\r\n        buttons.add(emptyButton);\r\n        panel.add(emptyButton);\r\n        emptyIndex = 15;\r\n        emptyButton.addActionListener(this);\r\n        // Lägg till panel och knapp för nytt spel\r\n        add(panel, BorderLayout.CENTER);\r\n        JButton newGameButton = new JButton(\"New Game\");\r\n        add(newGameButton, BorderLayout.SOUTH);\r\n        setTitle(\"15-Puzzle\");\r\n        setSize(400, 400);\r\n        setVisible(true);\r\n        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\r\n\r\n\r\n\r\n    }\r\n\r\n    @Override\r\n    public void actionPerformed(ActionEvent e) {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/FifteenPuzzle.java b/src/FifteenPuzzle.java
+--- a/src/FifteenPuzzle.java	(revision 715e73ed2cca37fa1bb5ba781e0ff15b5395b690)
++++ b/src/FifteenPuzzle.java	(date 1730239191456)
+@@ -38,8 +38,6 @@
+         setVisible(true);
+         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+ 
+-
+-
+     }
+ 
+     @Override
