@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 public class Randomize {
 
@@ -9,6 +11,9 @@ public class Randomize {
         for (int i = 1; i <= 15; i++) {  //for loop för att gå fr 1-15
             numbers.add(String.valueOf(i)); // värdet av i omvandlar d till en sträng
         }
+
+        //använder collections för enklaste sättet att slumpa ordningen av numrerna
+        Collections.shuffle(numbers);
 
     }
 }
