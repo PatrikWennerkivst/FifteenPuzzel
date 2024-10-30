@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f373d801-c573-443c-b09e-a723ac4c5f3f" name="Changes" comment="bytt namn på New game - knappen">
+    <list default="true" id="f373d801-c573-443c-b09e-a723ac4c5f3f" name="Changes" comment="maria lagt till en metod för att randomizera knapparna">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Randomize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Randomize.java" afterDir="false" />
     </list>
@@ -105,7 +105,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1730239899801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="maria lagt till en metod för att randomizera knapparna">
+      <option name="closed" value="true" />
+      <created>1730278522094</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1730278522094</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +122,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="First commit Maria test" />
     <MESSAGE value="bytt namn på New game - knappen" />
-    <option name="LAST_COMMIT_MESSAGE" value="bytt namn på New game - knappen" />
+    <MESSAGE value="maria lagt till en metod för att randomizera knapparna" />
+    <option name="LAST_COMMIT_MESSAGE" value="maria lagt till en metod för att randomizera knapparna" />
   </component>
 </project>
