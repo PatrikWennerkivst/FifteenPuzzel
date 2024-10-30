@@ -15,5 +15,9 @@ public class Randomize {
         //använder collections för enklaste sättet att slumpa ordningen av numrerna
         Collections.shuffle(numbers);
 
+        for (int i = 0; i < 15; i++ ) { // genom att uppdatera knapparna m dem slumpade numrerna,
+            buttons.get(i).setText(numbers.get(i));
+        }
+
     }
 }

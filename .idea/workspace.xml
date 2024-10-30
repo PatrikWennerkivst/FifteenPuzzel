@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f373d801-c573-443c-b09e-a723ac4c5f3f" name="Changes" comment="maria lagt till en for loop">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f373d801-c573-443c-b09e-a723ac4c5f3f" name="Changes" comment="maria lagt till en shuffle inom collections för att slumpa numrerna" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +123,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1730279320038</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="maria lagt till en shuffle inom collections för att slumpa numrerna">
+      <option name="closed" value="true" />
+      <created>1730280939349</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1730280939349</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +143,7 @@
     <MESSAGE value="maria lagt till en metod för att randomizera knapparna" />
     <MESSAGE value="maria lagt till en listan som ska slumpa 1-15" />
     <MESSAGE value="maria lagt till en for loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="maria lagt till en for loop" />
+    <MESSAGE value="maria lagt till en shuffle inom collections för att slumpa numrerna" />
+    <option name="LAST_COMMIT_MESSAGE" value="maria lagt till en shuffle inom collections för att slumpa numrerna" />
   </component>
 </project>
